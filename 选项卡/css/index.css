@@ -1,0 +1,58 @@
+* {
+  padding: 0;
+  margin: 0;
+  list-style: none; }
+
+a {
+  text-decoration: none; }
+
+body {
+  background: #fff; }
+
+.prodect {
+  width: 100%;
+  height: auto;
+  position: absolute;
+  top: 30px;
+  left: 0;
+  z-index: 10;
+  opacity: 0.8; }
+  .prodect .tba {
+    width: 980px;
+    height: auto;
+    margin: 0 auto; }
+    .prodect .tba .title {
+      width: 100%;
+      line-height: 45px; }
+      .prodect .tba .title li.active {
+        background: darkcyan;
+        color: #fff;
+        box-shadow: 5px 5px 5px #f60; }
+      .prodect .tba .title li {
+        width: 33.33%;
+        float: left;
+        background: #ccc;
+        text-align: center;
+        border-radius: 5px;
+        box-shadow: 5px 5px 5px #000;
+        cursor: pointer; }
+        .prodect .tba .title li:hover {
+          background: darkcyan;
+          color: #fff;
+          box-shadow: 5px 5px 5px #f60; }
+    .prodect .tba .content {
+      width: 100%;
+      height: 500px;
+      line-height: 500px;
+      background: darkkhaki;
+      box-shadow: 5px 5px 5px #000000;
+      border-radius: 5px; }
+      .prodect .tba .content li {
+        display: none;
+        text-align: center;
+        color: darkslateblue;
+        font-size: 20px;
+        font-weight: bold;
+        text-shadow: 5px 5px 5px #000; }
+      .prodect .tba .content li.active {
+        display: block; }

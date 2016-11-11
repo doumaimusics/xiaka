@@ -1,0 +1,92 @@
+* {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+body {
+    font-family: "微软雅黑";
+    font-size: 20px/1.5;
+}
+a {
+    text-decoration: none;
+    color: #333;
+}
+img {
+    border: none;
+}
+.clearfix {
+    zoom: 1;
+}
+.clearfix:after {
+    content: ".";
+    display: block;
+    height: 0;
+    visibility: hidden;
+    clear: both;
+}
+.pluer {
+    width: 100%;
+    height: auto;
+    .zhong {
+        width: 980px;
+        height: auto;
+        margin: 0 auto;
+        .center-left,
+        .center-right {
+            float: left;
+        }
+        .center-left {
+            width: 25%;
+            .side-nav-inner-list {
+                width: 100%;
+                border-bottom: 1px solid #ccc;
+                line-height: 40px;
+                position: relative;
+                a {
+                    display: block;
+                    color: #333;
+                    font-size: 14px;
+                    padding-left: 30px;
+                    border-bottom: 1px solid #ccc;
+                }
+                                .nav-inner-list-2{
+                    display: none;
+                }
+                .menu-icon {
+                    display: block;
+                    width: 16px;
+                    height: 12px;
+                    background: url("../img/icon2.png");
+                    background-position: -17px -142px;
+                    position: absolute;
+                    right: 5px;
+                    top: 15px;
+                    cursor: pointer;
+                }
+                .menu-icon2 {
+                    display: block;
+                    width: 10px;
+                    height: 6px;
+                    background: url("../img/icon2.png");
+                    background-position: -67px -142px;
+                    position: absolute;
+                    right: 5px;
+                    top: 15px;
+                    cursor: pointer;
+                }
+         .menu-icon2.active {
+               background-position: -186px -96px;
+            background-image: url("../img/icon2.png");
+            width: 10px;
+            height: 6px; }
+            }
+            .slid-nav-inner-box {
+                width: 100%;
+                line-height: 55px;
+            }
+        }
+        .center-right {
+            width: 75px;
+        }
+    }
+}
